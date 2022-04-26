@@ -1,0 +1,5 @@
+Bugs
+On TurnManager Script  On EnemyMove() when 2 enemy AI have subsequent move and the first enemy kills a unit and after the 2nd enemy targets the unit that the first enemy killed, it will cause a null error because the AI execution is faster than the Unit script destroying itself when it dies ( Fixed for now by not having enemyAI have 2 subsequent turns)
+
+https://www.youtube.com/watch?v=mTNL0EXU7kU Jumping Video reference
+On the video 34:45 it says to replace line 144's target.y with targetY because it was an error and he was saving the original value of target.y  on targetY for that reason 
