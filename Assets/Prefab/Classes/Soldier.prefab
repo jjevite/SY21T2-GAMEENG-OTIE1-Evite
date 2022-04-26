@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5871113225433007061
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: HP
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MP
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: Speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MagicDamage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: AttackDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 967199036660262587, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: ActiveSkill1
+      value: 
+      objectReference: {fileID: 1713555265913139571, guid: 2d85e07f4d4e06d4a9194a06b40ce42b, type: 3}
+    - target: {fileID: 967199036660262587, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: ActiveSkill2
+      value: 
+      objectReference: {fileID: 1408231496219175552, guid: f66b21eca35389b46bc5503c09281484, type: 3}
+    - target: {fileID: 967199036660262587, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: PassiveSkill
+      value: 
+      objectReference: {fileID: 2968541029620862747, guid: e9702e1d716b2674da67bbf542508a68, type: 3}
+    - target: {fileID: 5000194197462792726, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_Name
+      value: Soldier
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143021126826601027, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: ActiveSkill1ToEquipPrefab
+      value: 
+      objectReference: {fileID: 7572247623896299467, guid: f66b21eca35389b46bc5503c09281484, type: 3}
+    - target: {fileID: 6143021126826601027, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: ActiveSkill2ToEquipPrefab
+      value: 
+      objectReference: {fileID: 6271572800283402605, guid: 2d85e07f4d4e06d4a9194a06b40ce42b, type: 3}
+    - target: {fileID: 6143021126826601027, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: PassiveSkillToEquipPrefab
+      value: 
+      objectReference: {fileID: 5183596260934880067, guid: d318943fd8eb96d489829e36494e6c98, type: 3}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: Name
+      value: Soldier
+      objectReference: {fileID: 0}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: Description
+      value: A Hardened Unit for Killing Purposes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: WeaponToEquip
+      value: 
+      objectReference: {fileID: 8952242521820888548, guid: ee0752706eac33749a47331707fae174, type: 3}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: WeaponToEquipPrefab
+      value: 
+      objectReference: {fileID: 8952242521820888548, guid: ee0752706eac33749a47331707fae174, type: 3}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: HP
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MP
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: Speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: AttackDamage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MovementRange
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 872aa256e29ca024c9e709c419446534, type: 3}

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7327023822412149163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: HP
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MP
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: Speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 403399452266353956, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MovementRange
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 967199036660262587, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: ActiveSkill1
+      value: 
+      objectReference: {fileID: 5262513537465787197, guid: a312de84664c71a4cac857fad2289b93, type: 3}
+    - target: {fileID: 967199036660262587, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: PassiveSkill
+      value: 
+      objectReference: {fileID: 2968541029620862747, guid: e9702e1d716b2674da67bbf542508a68, type: 3}
+    - target: {fileID: 5000194197462792726, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_Name
+      value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 6143021126826601027, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: ActiveSkill1ToEquipPrefab
+      value: 
+      objectReference: {fileID: 6476297692392366210, guid: a312de84664c71a4cac857fad2289b93, type: 3}
+    - target: {fileID: 6143021126826601027, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: ActiveSkill2ToEquipPrefab
+      value: 
+      objectReference: {fileID: 8299987265702535469, guid: e0ae2eab1f7ec5f4fbbd37388b09d0dc, type: 3}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228993335945116767, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: Name
+      value: Slime
+      objectReference: {fileID: 0}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: Description
+      value: A monster with unknown sticky Substance
+      objectReference: {fileID: 0}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: WeaponToEquip
+      value: 
+      objectReference: {fileID: 1720976005277165059, guid: 1a4ae09d1666f0643afb0f5bd7f765aa, type: 3}
+    - target: {fileID: 6834938240323909722, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: WeaponToEquipPrefab
+      value: 
+      objectReference: {fileID: 1720976005277165059, guid: 1a4ae09d1666f0643afb0f5bd7f765aa, type: 3}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: HP
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MagicDamage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: AttackDamage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786114267205804201, guid: 872aa256e29ca024c9e709c419446534, type: 3}
+      propertyPath: MovementRange
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 872aa256e29ca024c9e709c419446534, type: 3}
